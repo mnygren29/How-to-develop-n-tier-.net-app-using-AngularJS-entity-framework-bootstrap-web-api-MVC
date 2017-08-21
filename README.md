@@ -1,0 +1,6 @@
+This is a great project to get you up to speed on creating a well architected N-tier .net application using the following design patterns and stack:
+⦁	MVC where, we have angular components setup as services and controllers that inject services we need to create an SPA (Single Page Application) using AngularJS with routing to Web API service calls.
+⦁	Repository pattern, where we have a BOL (Business Object Layer), DAL (Data Access Layer), BLL (Business Logic Layer), API (Service Layer) and AngularJS View. The Repository pattern in the DAL is a good approach because you can change at any time how you want to retrieve your data against the BOL. For example, you could change your methods to use ADO.net instead of the ORM DB context way, and it would not affect the rest of your layers. Also, you can add additional models to the BOL without affecting the upper layers.
+So as you can see, there is a great separation of concern and loose coupling between each layer in this architecture structure.
+
+Please read the setup documentation i have included in the solution folder.
