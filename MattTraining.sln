@@ -15,6 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EIS.AngularJSUI", "EIS.Angu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MattConsoleUnitTest", "MattConsoleUnitTest\MattConsoleUnitTest.csproj", "{D793EA24-8164-4DAF-B5E9-75D88A707CE7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E877B8F-408E-4C64-AD63-91BDBAB2DAAF}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\N-tier Web API Code First Bootstrap Angular Architecture.rtf = ..\..\N-tier Web API Code First Bootstrap Angular Architecture.rtf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
